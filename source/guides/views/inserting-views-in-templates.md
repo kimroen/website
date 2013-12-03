@@ -76,8 +76,8 @@ User: {{view.firstName}} {{view.lastName}}
 {{view view.infoView}}
 ```
 
-When nesting a view class like this, make sure to use a lowercase
-letter, as Ember will interpret a property with a capital letter as a
+When nesting a view class like this, make sure to start the property with a lowercase
+letter (write `infoView` instead of `InfoView`), as Ember will interpret a property starting with a capital letter as a
 global property.
 
 ### Setting Child View Templates
