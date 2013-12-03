@@ -92,9 +92,9 @@ You can make a native array copy of any object that implements
 var states = Ember.Set.create();
 
 states.add("Hawaii");
-states.add("California")
+states.add("California");
 
-states.toArray()
+states.toArray();
 //=> ["Hawaii", "California"]
 ```
 
